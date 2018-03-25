@@ -9,13 +9,22 @@
 ### Please open issue with clear name
 
 ## How to use
-###### First install all the required modules
+###### First update and upgrade your system 
 ```
-pip install argparse requests PySocks asyncio proxybroker
+sudo apt-get update
+sudo apt-get upgrade
+```
+###### Install pip for Python3
+```
+sudo apt-get install python3-pip
+```
+###### Install all the required modules
+```
+pip3 install argparse requests PySocks asyncio proxybroker
 ```
 ###### Run the script
 ```
-python instabrute.py USERNAME PASSWORD_FILE
+python3 instabrute.py USERNAME PASSWORD_FILE
 //Example: "python instabrute.py username passwords.txt"
 ```
 ## Todo List
